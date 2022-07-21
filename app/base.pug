@@ -1,0 +1,41 @@
+block vars
+    - var siteTitle = 'Title';
+    - var lang = 'en';
+
+block img
+    - var headerLogo = './images/logo.svg';
+    - var topImg = './images/top-img.png';
+    - var cardImg1 = './images/card-img-1.png';
+    - var cardImg2 = './images/card-img-2.png';
+    - var cardImg3 = './images/card-img-3.png';
+    - var tecnologiImg = './images/tecnologi-img.jpg';
+    - var tecnologiIcon1 = './images/tecnologi-icon-1.svg';
+    - var tecnologiIcon2 = './images/tecnologi-icon-2.svg';
+    - var partnersImg1 = './images/partners-1.svg';
+    - var partnersImg2 = './images/partners-2.svg';
+    - var partnersImg3 = './images/partners-3.svg';
+    - var partnersImg4 = './images/partners-4.svg';
+    - var partnersImg5 = './images/partners-5.svg';
+    - var partnersImg6 = './images/partners-6.svg';
+    - var partnersImg7 = './images/partners-7.svg';
+    - var partnersImg8 = './images/partners-8.svg';
+    - var footerLogo = './images/footer-logo.svg';
+    - var footerSocialImg1 = './images/footer-social-1.svg';
+    - var footerSocialImg2 = './images/footer-social-2.svg';
+    - var footerSocialImg3 = './images/footer-social-3.svg';
+
+doctype html
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+
+        title #{siteTitle}
+
+        link(rel='stylesheet' href='./css/normalize.css')
+        link(rel='stylesheet' href='./css/style.min.css')
+        link(rel='script' href='./js/main.js')
+        link(rel='shortcut icon' href='./images/icon.svg')
+
+    body
+        block content

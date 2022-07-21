@@ -1,0 +1,28 @@
+$menu: #fff;
+$title: #fff;
+$text: #B2B2B2;
+$subtitle: #B2B2B2;
+$link: #332200;
+$section-title: #111111;
+
+%title-font {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+%menu-font {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+

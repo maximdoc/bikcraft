@@ -1,0 +1,130 @@
+extends base
+
+block vars
+    - var siteTitle = 'Home'
+
+block content
+    include header
+
+    .wrapper
+        main.main
+            section#card.card
+                h3.card__title.container escolha a sua<span>.</span>
+
+                .container-cs
+                    .card__inner
+                        .card__item._anim-items
+                            a(href='#').card__items-link
+                                img(src=cardImg1, alt="img").card__items-img
+                                h4.card__items-title Magic Might
+                                p.card__items-price._anim-items R$ 2499
+                        .card__item._anim-items
+                            a(href='#').card__items-link
+                                img(src=cardImg2, alt="img").card__items-img
+                                h4.card__items-title Nimbus Stark
+                                p.card__items-price._anim-items R$ 4999
+                        .card__item._anim-items
+                            a(href='#').card__items-link
+                                img(src=cardImg3, alt="img").card__items-img
+                                h4.card__items-title Nebula Cosmic
+                                p.card__items-price._anim-items R$ 3999
+
+            section.tecnologi
+                .container
+                    .tecnologi__inner
+                        .tecnologi__info
+                            p.tecnologi__subtitle._anim-items._anim-no-hide Tecnologia Avançada
+                            h3.tecnologi__title._anim-items._anim-no-hide você escolhe as suas cores e componentes<span>.</span>
+                            p.tecnologi__text._anim-items._anim-no-hide.
+                                Cada Bikcraft é única e possui a sua
+                                identidade. As medidas serão exatas para o seu corpo e altura,
+                                garantindo maior conforto e ergonomia na sua pedalada.
+                                Você pode também personalizar completamente as suas cores.
+                            a(href='#').tecnologi__link ESCOLHA UM MODELO
+                            .tecnologi__item
+                                .tecnologi__items._anim-items
+                                    img(src=tecnologiIcon1, alt="img").tecnologi__icon
+                                    h5.tecnologi__items-title Motor Elétrico
+                                    p.tecnologi__items-text.
+                                        Toda Bikcraft é equipada com um motor
+                                        elétrico que possui duração de até 120h.
+                                        A bateria é recarregada com a sua energia
+                                        gasta ao pedalar.
+
+                                .tecnologi__items._anim-items
+                                    img(src=tecnologiIcon2, alt="img").tecnologi__icon
+                                    h5.tecnologi__items-title Rastreador
+                                    p.tecnologi__items-text.
+                                        Sabemos o quão preciosa é a sua Bikcraft,
+                                        por isso adicionamos
+                                        rastreadores e sistemas anti-furto
+                                        para garantir o seu sossego.
+
+            section.partners
+                .container
+
+                    h3.partners__title nossos parceiros<span>.</span>
+
+                    .partners__inner
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg1, alt="img").partners__img
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg2, alt="img").partners__img
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg3, alt="img").partners__img
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg4, alt="img").partners__img
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg5, alt="img").partners__img
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg6, alt="img").partners__img
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg7, alt="img").partners__img
+                        .partners__item._anim-items._anim-no-hide
+                            .partners__wrapper-img
+                                img(src=partnersImg8, alt="img").partners__img
+
+            section#insurance.insurance
+                .container.container-cs
+                    h3.insurance__title seguros<span>.</span>
+
+                    .insurance__inner
+                        .insurance__item
+                            .insurance__items-box
+                                h4.insurance__items-name PRATA
+                                p.insurance__items-price R$ 199
+                            ul.insurance__items-list
+                                li.insurance__items-item._anim-items Duas trocas por ano
+                                li.insurance__items-item._anim-items Assistência técnica
+                                li.insurance__items-item._anim-items Suporte 08h às 18h
+                                li.insurance__items-item._anim-items Cobertura estadual
+                            a(href='#').insurance__items-link INSCREVA-SE
+                        .insurance__item
+                            .insurance__items-box
+                                h4.insurance__items-name OURO
+                                p.insurance__items-price R$ 299
+                            ul.insurance__items-list
+                                li.insurance__items-item._anim-items Cinco trocas por ano
+                                li.insurance__items-item._anim-items Assistência especial
+                                li.insurance__items-item._anim-items Suporte 24h
+                                li.insurance__items-item._anim-items Cobertura nacional
+                                li.insurance__items-item._anim-items Desconto em parceiros
+                                li.insurance__items-item._anim-items Acesso ao Clube Bikcraft
+                            a(href='#').insurance__items-link INSCREVA-SE
+
+    include footer
+
+
+
+
+
+
+
+
